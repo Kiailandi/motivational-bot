@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 require('dotenv').config();
 
-const manziAccounts = ['patroclo94'];
+const manziAccounts = require('../../manziList.json');
 
 const { scrapeImgByUsername } = require('../scraper');
 
