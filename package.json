@@ -1,0 +1,28 @@
+{
+  "name": "motivational-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiailandi/motivational-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiailandi/motivational-bot/issues"
+  },
+  "homepage": "https://github.com/Kiailandi/motivational-bot#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "puppeteer": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
